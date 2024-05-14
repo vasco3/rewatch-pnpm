@@ -1,17 +1,11 @@
 {
-  "name": "rewatch-pnpm",
+  "name": "project",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "main": "index.js",
-  "author": "Fentexhaus, S.A. de C.V.",
-  "scripts": {
-    "clean": "pnpm rewatch clean .",
-    "baktrace": "RUST_BACKTRACE=1 pnpm rewatch --create-sourcedirs true build .",
-    "build": "pnpm rewatch build . ",
-    "watch": "pnpm rewatch watch . "
-  },
-  "dependencies": {
-    "@rolandpeelen/rewatch": "^1.0.6",
-    "rescript": "^11.1.0"
-  }
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
 }

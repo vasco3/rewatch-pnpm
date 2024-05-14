@@ -7,7 +7,7 @@
       "in-source": true
     }
   ],
-  "bs-dependencies": [],
+  "bs-dependencies": ["@rescript/react"],
   "bs-dev-dependencies": [],
   "suffix": ".res.js",
   "reanalyze": {
