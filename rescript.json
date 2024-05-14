@@ -1,0 +1,23 @@
+{
+  "name": "rewatchpnpm",
+  "sources": [{ "dir": "src/components", "subdirs": false }],
+  "package-specs": [
+    {
+      "module": "esmodule",
+      "in-source": true
+    }
+  ],
+  "bs-dependencies": [],
+  "bs-dev-dependencies": [],
+  "suffix": ".res.js",
+  "reanalyze": {
+    "analysis": ["dce", "exception"]
+  },
+  "jsx": { "version": 4, "mode": "automatic" },
+  "uncurried": false,
+  "warnings": {
+    "number": "-44-102",
+    "error": "+5"
+  },
+  "namespace": true
+}

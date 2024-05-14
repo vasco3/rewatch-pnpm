@@ -1,0 +1,33 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@rolandpeelen/rewatch':
+        specifier: ^1.0.6
+        version: 1.0.6
+      rescript:
+        specifier: ^11.1.0
+        version: 11.1.0
+
+packages:
+
+  '@rolandpeelen/rewatch@1.0.6':
+    resolution: {integrity: sha512-i5On4uY6oHTIxFrcrpIU8Zsq3+MCB9D9DTD/9vY62pKlVyQbz0aKoAhXoceSK+rZ5xzIabdRlsmUKv8M7zWdgQ==}
+    hasBin: true
+
+  rescript@11.1.0:
+    resolution: {integrity: sha512-9la2Dv+ACylQ77I8s4spPu1JnLZXbH5WgxcLHLLUBWgFFSiv0wXqgzWztrBIZqwFgVX5BYcwldUqUVcEzdCyHg==}
+    engines: {node: '>=10'}
+    hasBin: true
+
+snapshots:
+
+  '@rolandpeelen/rewatch@1.0.6': {}
+
+  rescript@11.1.0: {}
